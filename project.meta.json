@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-03T20:39:09.818Z",
+  "generatedAt": "2026-09-03T20:45:32.986Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "org-atlas-directory",
@@ -127,7 +127,7 @@
   "metrics": {
     "sourceFiles": 29,
     "testFiles": 0,
-    "sourceLines": 1870,
+    "sourceLines": 1873,
     "largestDirectories": [
       {
         "directory": "src",
@@ -158,10 +158,10 @@
   "analysisNotes": "React/Redux directory app with json-server demo flow and synthetic relational data; useful but quieter portfolio material.",
   "git": {
     "branch": "ai/refine-org-atlas-directory-cycle-02",
-    "head": "b1ae2e3",
-    "lastCommitDate": "2026-05-18T13:57:37+03:00",
-    "lastCommitSubject": "Refresh Org Atlas lockfile",
-    "commitCount": 13,
+    "head": "532e02d",
+    "lastCommitDate": "2026-09-03T23:42:38+03:00",
+    "lastCommitSubject": "Wire up the meta scripts",
+    "commitCount": 15,
     "remote": "https://github.com/BorisThoris/org-atlas-directory.git"
   },
   "readme": {
