@@ -1,0 +1,171 @@
+{
+  "$schema": "./scripts/project.meta.schema.json",
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-03T20:39:09.818Z",
+  "generatedBy": "scripts/generate-project-meta.mjs",
+  "identity": {
+    "slug": "org-atlas-directory",
+    "repoName": "tick42_demo",
+    "packageName": "org-atlas-directory",
+    "version": "0.1.0",
+    "title": "Org Atlas Directory",
+    "subtitle": "Enterprise directory demo",
+    "description": "A React/Redux directory app with synthetic relational data for companies, projects, employees, and addresses.",
+    "tags": [
+      "React",
+      "Redux",
+      "Directory"
+    ],
+    "accent": "#60a5fa",
+    "classification": "web-app",
+    "showcaseTier": "more"
+  },
+  "links": {
+    "deploymentUrl": "https://org-atlas-directory-git.pages.dev/",
+    "localUrl": "http://127.0.0.1:4115/",
+    "homepage": "./",
+    "repository": "https://github.com/BorisThoris/org-atlas-directory"
+  },
+  "runtime": {
+    "packageManager": "npm",
+    "buildCommand": "npm run build",
+    "buildOutput": "build",
+    "runCommand": "npm run demo",
+    "devPort": 4115,
+    "scripts": [
+      "predeploy",
+      "deploy",
+      "start",
+      "old",
+      "json-server",
+      "demo",
+      "dev",
+      "build",
+      "test",
+      "eject",
+      "lint",
+      "meta",
+      "meta:check"
+    ]
+  },
+  "capture": {
+    "route": "/"
+  },
+  "media": {
+    "source": "portfolio-capture",
+    "directory": "C:/Users/Gaming PC/Desktop/Repos/portfolio/public/project-shots/org-atlas-directory/latest",
+    "primary": "/project-shots/org-atlas-directory/latest/card.jpg",
+    "images": [
+      {
+        "profile": "card",
+        "file": "card.jpg",
+        "path": "/project-shots/org-atlas-directory/latest/card.jpg",
+        "bytes": 40006,
+        "width": 1600,
+        "height": 900,
+        "capturedAt": "2026-08-27T12:18:48.070Z"
+      },
+      {
+        "profile": "desktop",
+        "file": "desktop.jpg",
+        "path": "/project-shots/org-atlas-directory/latest/desktop.jpg",
+        "bytes": 39381,
+        "width": 1440,
+        "height": 900,
+        "capturedAt": "2026-08-27T12:18:52.287Z"
+      },
+      {
+        "profile": "full",
+        "file": "full.jpg",
+        "path": "/project-shots/org-atlas-directory/latest/full.jpg",
+        "bytes": 29099,
+        "width": 1440,
+        "height": 900,
+        "capturedAt": "2026-08-27T12:19:00.851Z"
+      },
+      {
+        "profile": "mobile",
+        "file": "mobile.jpg",
+        "path": "/project-shots/org-atlas-directory/latest/mobile.jpg",
+        "bytes": 22658,
+        "width": 430,
+        "height": 932,
+        "capturedAt": "2026-08-27T12:18:56.550Z"
+      }
+    ]
+  },
+  "stack": {
+    "framework": "React",
+    "language": "JavaScript",
+    "runtimeTargets": [
+      "web"
+    ],
+    "libraries": [
+      {
+        "name": "react",
+        "version": "^16.13.1"
+      },
+      {
+        "name": "react-dom",
+        "version": "^16.13.1"
+      },
+      {
+        "name": "react-router-dom",
+        "version": "^5.2.0"
+      },
+      {
+        "name": "redux",
+        "version": "^4.0.5"
+      }
+    ],
+    "testing": [
+      "@testing-library/react"
+    ],
+    "dependencyCount": 13,
+    "devDependencyCount": 4
+  },
+  "metrics": {
+    "sourceFiles": 29,
+    "testFiles": 0,
+    "sourceLines": 1870,
+    "largestDirectories": [
+      {
+        "directory": "src",
+        "files": 26
+      },
+      {
+        "directory": "scripts",
+        "files": 2
+      },
+      {
+        "directory": "public",
+        "files": 1
+      }
+    ],
+    "hasReadme": true,
+    "hasTests": false,
+    "hasCi": false,
+    "hasDocs": false
+  },
+  "scores": {
+    "priorityScore": 70,
+    "demoabilityScore": 74,
+    "depthScore": 70,
+    "polishScore": 68,
+    "uniquenessScore": 68,
+    "maintenanceScore": 66
+  },
+  "analysisNotes": "React/Redux directory app with json-server demo flow and synthetic relational data; useful but quieter portfolio material.",
+  "git": {
+    "branch": "ai/refine-org-atlas-directory-cycle-02",
+    "head": "b1ae2e3",
+    "lastCommitDate": "2026-05-18T13:57:37+03:00",
+    "lastCommitSubject": "Refresh Org Atlas lockfile",
+    "commitCount": 13,
+    "remote": "https://github.com/BorisThoris/org-atlas-directory.git"
+  },
+  "readme": {
+    "file": "README.md",
+    "heading": "Org Atlas Directory"
+  }
+}
