@@ -32,7 +32,10 @@
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.js",
     "meta": "node scripts/generate-project-meta.mjs",
-    "meta:check": "node scripts/generate-project-meta.mjs --check"
+    "meta:check": "node scripts/generate-project-meta.mjs --check",
+    "shots": "node scripts/capture-project-shots.mjs",
+    "social": "node scripts/generate-social-preview.mjs",
+    "social:check": "node scripts/generate-social-preview.mjs --check"
   },
   "eslintConfig": {
     "extends": "react-app",
