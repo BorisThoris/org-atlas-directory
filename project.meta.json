@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-03T20:45:32.986Z",
+  "generatedAt": "2026-09-03T21:50:31.486Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "org-atlas-directory",
@@ -45,52 +45,64 @@
       "eject",
       "lint",
       "meta",
-      "meta:check"
+      "meta:check",
+      "shots",
+      "social",
+      "social:check"
     ]
   },
   "capture": {
     "route": "/"
   },
   "media": {
-    "source": "portfolio-capture",
-    "directory": "C:/Users/Gaming PC/Desktop/Repos/portfolio/public/project-shots/org-atlas-directory/latest",
-    "primary": "/project-shots/org-atlas-directory/latest/card.jpg",
+    "source": "repo-local",
+    "directory": "C:/Users/Gaming PC/Desktop/Repos/tick42_demo/project-media",
+    "primary": "project-media/card.jpg",
     "images": [
       {
         "profile": "card",
         "file": "card.jpg",
-        "path": "/project-shots/org-atlas-directory/latest/card.jpg",
+        "path": "project-media/card.jpg",
         "bytes": 40006,
         "width": 1600,
         "height": 900,
-        "capturedAt": "2026-08-27T12:18:48.070Z"
+        "capturedAt": "2026-09-03T21:36:57.004Z"
       },
       {
         "profile": "desktop",
         "file": "desktop.jpg",
-        "path": "/project-shots/org-atlas-directory/latest/desktop.jpg",
-        "bytes": 39381,
+        "path": "project-media/desktop.jpg",
+        "bytes": 37115,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-08-27T12:18:52.287Z"
+        "capturedAt": "2026-09-03T21:36:58.726Z"
       },
       {
         "profile": "full",
         "file": "full.jpg",
-        "path": "/project-shots/org-atlas-directory/latest/full.jpg",
-        "bytes": 29099,
+        "path": "project-media/full.jpg",
+        "bytes": 27266,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-08-27T12:19:00.851Z"
+        "capturedAt": "2026-09-03T21:37:02.059Z"
       },
       {
         "profile": "mobile",
         "file": "mobile.jpg",
-        "path": "/project-shots/org-atlas-directory/latest/mobile.jpg",
-        "bytes": 22658,
+        "path": "project-media/mobile.jpg",
+        "bytes": 21229,
         "width": 430,
         "height": 932,
-        "capturedAt": "2026-08-27T12:18:56.550Z"
+        "capturedAt": "2026-09-03T21:37:00.391Z"
+      },
+      {
+        "profile": "og",
+        "file": "og.jpg",
+        "path": "project-media/og.jpg",
+        "bytes": 29518,
+        "width": 1200,
+        "height": 630,
+        "capturedAt": "2026-09-03T21:37:03.743Z"
       }
     ]
   },
@@ -125,9 +137,9 @@
     "devDependencyCount": 4
   },
   "metrics": {
-    "sourceFiles": 29,
+    "sourceFiles": 31,
     "testFiles": 0,
-    "sourceLines": 1873,
+    "sourceLines": 2334,
     "largestDirectories": [
       {
         "directory": "src",
@@ -135,7 +147,7 @@
       },
       {
         "directory": "scripts",
-        "files": 2
+        "files": 4
       },
       {
         "directory": "public",
@@ -158,10 +170,10 @@
   "analysisNotes": "React/Redux directory app with json-server demo flow and synthetic relational data; useful but quieter portfolio material.",
   "git": {
     "branch": "ai/refine-org-atlas-directory-cycle-02",
-    "head": "532e02d",
-    "lastCommitDate": "2026-09-03T23:42:38+03:00",
-    "lastCommitSubject": "Wire up the meta scripts",
-    "commitCount": 15,
+    "head": "1a77e1e",
+    "lastCommitDate": "2026-09-03T23:46:16+03:00",
+    "lastCommitSubject": "Refresh project metadata",
+    "commitCount": 16,
     "remote": "https://github.com/BorisThoris/org-atlas-directory.git"
   },
   "readme": {

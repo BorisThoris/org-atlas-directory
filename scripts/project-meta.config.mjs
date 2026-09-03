@@ -52,6 +52,15 @@ export default {
   analysisNotes:
     "React/Redux directory app with json-server demo flow and synthetic relational data; useful but quieter portfolio material.",
 
+  // Where the link-preview card lives: the page head that carries the Open
+  // Graph tags, and the static directory the image is published from.
+  social: {
+    "htmlFile": "public/index.html",
+    "staticDir": "public",
+    "imageName": "og-image.jpg",
+    "imageUrlPath": "/og-image.jpg"
+  },
+
   media: {
     sourceDir: path.join(portfolioRoot, "public", "project-shots", "org-atlas-directory", "latest"),
     publicPathPrefix: "/project-shots/org-atlas-directory/latest",

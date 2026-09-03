@@ -1,0 +1,51 @@
+{
+  "slug": "org-atlas-directory",
+  "capturedAt": "2026-09-03T21:37:03.816Z",
+  "source": "deployment",
+  "url": "https://org-atlas-directory-git.pages.dev/",
+  "recipe": {
+    "route": "/"
+  },
+  "profiles": [
+    {
+      "profile": "card",
+      "file": "card.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 40006,
+      "status": "captured"
+    },
+    {
+      "profile": "desktop",
+      "file": "desktop.jpg",
+      "width": 1440,
+      "height": 900,
+      "bytes": 37115,
+      "status": "captured"
+    },
+    {
+      "profile": "mobile",
+      "file": "mobile.jpg",
+      "width": 430,
+      "height": 932,
+      "bytes": 21229,
+      "status": "captured"
+    },
+    {
+      "profile": "full",
+      "file": "full.jpg",
+      "width": 1440,
+      "height": 900,
+      "bytes": 27266,
+      "status": "captured"
+    },
+    {
+      "profile": "og",
+      "file": "og.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 29518,
+      "status": "captured"
+    }
+  ]
+}
