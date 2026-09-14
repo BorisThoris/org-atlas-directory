@@ -1,11 +1,11 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T21:36:28.061Z",
+  "generatedAt": "2026-09-14T22:09:03.582Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "org-atlas-directory",
-    "repoName": "tick42_demo",
+    "repoName": "org-atlas-directory",
     "packageName": "org-atlas-directory",
     "version": "0.1.0",
     "title": "Org Atlas Directory",
@@ -142,7 +142,7 @@
   "metrics": {
     "sourceFiles": 33,
     "testFiles": 0,
-    "sourceLines": 2835,
+    "sourceLines": 2844,
     "largestDirectories": [
       {
         "directory": "src",
@@ -173,10 +173,10 @@
   "analysisNotes": "React/Redux directory app with json-server demo flow and synthetic relational data; useful but quieter portfolio material.",
   "git": {
     "branch": "ai/refine-org-atlas-directory-cycle-02",
-    "head": "8f7aeda",
-    "lastCommitDate": "2026-09-14T23:59:45+03:00",
-    "lastCommitSubject": "Sync the metadata toolkit scripts and regenerate project.meta.json",
-    "commitCount": 20,
+    "head": "cb9e9f3",
+    "lastCommitDate": "2026-09-15T00:43:24+03:00",
+    "lastCommitSubject": "Gate pushes on a current link-preview card and icon set",
+    "commitCount": 21,
     "remote": "https://github.com/BorisThoris/org-atlas-directory.git"
   },
   "readme": {
