@@ -1,0 +1,17 @@
+{
+  "slug": "org-atlas-directory",
+  "source": "public/favicon.svg",
+  "sourceHash": "fd57d42f75e6fc91",
+  "outputDir": "public",
+  "urlPrefix": "/",
+  "renderedAt": "2026-09-14T20:40:20.770Z",
+  "files": [
+    "favicon.ico",
+    "apple-touch-icon.png",
+    "icon-192.png",
+    "icon-512.png",
+    "icon-maskable-512.png",
+    "favicon.svg",
+    "site.webmanifest"
+  ]
+}

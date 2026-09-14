@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-03T21:50:31.486Z",
+  "generatedAt": "2026-09-14T20:41:28.838Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "org-atlas-directory",
@@ -48,7 +48,10 @@
       "meta:check",
       "shots",
       "social",
-      "social:check"
+      "social:check",
+      "icons",
+      "icons:check",
+      "meta:refresh"
     ]
   },
   "capture": {
@@ -137,9 +140,9 @@
     "devDependencyCount": 4
   },
   "metrics": {
-    "sourceFiles": 31,
+    "sourceFiles": 33,
     "testFiles": 0,
-    "sourceLines": 2334,
+    "sourceLines": 2807,
     "largestDirectories": [
       {
         "directory": "src",
@@ -147,7 +150,7 @@
       },
       {
         "directory": "scripts",
-        "files": 4
+        "files": 6
       },
       {
         "directory": "public",
@@ -170,10 +173,10 @@
   "analysisNotes": "React/Redux directory app with json-server demo flow and synthetic relational data; useful but quieter portfolio material.",
   "git": {
     "branch": "ai/refine-org-atlas-directory-cycle-02",
-    "head": "1a77e1e",
-    "lastCommitDate": "2026-09-03T23:46:16+03:00",
-    "lastCommitSubject": "Refresh project metadata",
-    "commitCount": 16,
+    "head": "506c484",
+    "lastCommitDate": "2026-09-04T00:53:30+03:00",
+    "lastCommitSubject": "Wire up the shots and social scripts",
+    "commitCount": 18,
     "remote": "https://github.com/BorisThoris/org-atlas-directory.git"
   },
   "readme": {
