@@ -1,6 +1,6 @@
 {
   "slug": "org-atlas-directory",
-  "capturedAt": "2026-09-03T21:37:03.816Z",
+  "capturedAt": "2026-09-14T23:27:54.043Z",
   "source": "deployment",
   "url": "https://org-atlas-directory-git.pages.dev/",
   "recipe": {
@@ -12,7 +12,7 @@
       "file": "card.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 40006,
+      "bytes": 41987,
       "status": "captured"
     },
     {
@@ -20,7 +20,7 @@
       "file": "desktop.jpg",
       "width": 1440,
       "height": 900,
-      "bytes": 37115,
+      "bytes": 41395,
       "status": "captured"
     },
     {
@@ -28,7 +28,7 @@
       "file": "mobile.jpg",
       "width": 430,
       "height": 932,
-      "bytes": 21229,
+      "bytes": 24164,
       "status": "captured"
     },
     {
@@ -36,7 +36,7 @@
       "file": "full.jpg",
       "width": 1440,
       "height": 900,
-      "bytes": 27266,
+      "bytes": 30815,
       "status": "captured"
     },
     {
@@ -44,7 +44,7 @@
       "file": "og.jpg",
       "width": 1200,
       "height": 630,
-      "bytes": 29518,
+      "bytes": 33599,
       "status": "captured"
     }
   ]
