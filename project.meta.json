@@ -1,11 +1,11 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T20:59:53.232Z",
+  "generatedAt": "2026-09-14T21:43:35.195Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "org-atlas-directory",
-    "repoName": "tick42_demo-sync-wt",
+    "repoName": "tick42_demo-gate-wt",
     "packageName": "org-atlas-directory",
     "version": "0.1.0",
     "title": "Org Atlas Directory",
@@ -59,7 +59,7 @@
   },
   "media": {
     "source": "repo-local",
-    "directory": "C:/Users/Gaming PC/AppData/Local/Temp/claude/tick42_demo-sync-wt/project-media",
+    "directory": "C:/Users/Gaming PC/AppData/Local/Temp/claude/tick42_demo-gate-wt/project-media",
     "primary": "project-media/card.jpg",
     "images": [
       {
@@ -69,7 +69,7 @@
         "bytes": 40006,
         "width": 1600,
         "height": 900,
-        "capturedAt": "2026-09-14T20:59:51.997Z"
+        "capturedAt": "2026-09-14T21:43:33.462Z"
       },
       {
         "profile": "desktop",
@@ -78,7 +78,7 @@
         "bytes": 37115,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-14T20:59:51.999Z"
+        "capturedAt": "2026-09-14T21:43:33.466Z"
       },
       {
         "profile": "full",
@@ -87,7 +87,7 @@
         "bytes": 27266,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-14T20:59:52.000Z"
+        "capturedAt": "2026-09-14T21:43:33.469Z"
       },
       {
         "profile": "mobile",
@@ -96,7 +96,7 @@
         "bytes": 21229,
         "width": 430,
         "height": 932,
-        "capturedAt": "2026-09-14T20:59:52.004Z"
+        "capturedAt": "2026-09-14T21:43:33.474Z"
       },
       {
         "profile": "og",
@@ -105,7 +105,7 @@
         "bytes": 29518,
         "width": 1200,
         "height": 630,
-        "capturedAt": "2026-09-14T20:59:52.005Z"
+        "capturedAt": "2026-09-14T21:43:33.478Z"
       }
     ]
   },
@@ -142,7 +142,7 @@
   "metrics": {
     "sourceFiles": 33,
     "testFiles": 0,
-    "sourceLines": 2811,
+    "sourceLines": 2822,
     "largestDirectories": [
       {
         "directory": "src",
@@ -159,7 +159,7 @@
     ],
     "hasReadme": true,
     "hasTests": false,
-    "hasCi": false,
+    "hasCi": true,
     "hasDocs": false
   },
   "scores": {
@@ -172,11 +172,11 @@
   },
   "analysisNotes": "React/Redux directory app with json-server demo flow and synthetic relational data; useful but quieter portfolio material.",
   "git": {
-    "branch": "meta/sync-8f7aeda",
-    "head": "1f1fa2d",
-    "lastCommitDate": "2026-09-14T23:51:00+03:00",
+    "branch": "meta/gate-cb9e9f3",
+    "head": "5d7484d",
+    "lastCommitDate": "2026-09-14T23:59:54+03:00",
     "lastCommitSubject": "Refresh project metadata for master",
-    "commitCount": 21,
+    "commitCount": 22,
     "remote": "https://github.com/BorisThoris/org-atlas-directory.git"
   },
   "readme": {
