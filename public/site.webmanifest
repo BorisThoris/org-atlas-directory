@@ -1,7 +1,7 @@
 {
   "name": "Org Atlas Directory",
   "short_name": "Org Atlas",
-  "description": "A React/Redux directory app with synthetic relational data for companies, projects, employees, and addresses.",
+  "description": "A React and Redux directory for connected enterprise data: pick a company and drill into its projects, employees and addresses with master-detail filtering, backed by a local JSON data source.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
