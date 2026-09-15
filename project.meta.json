@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T12:23:58.916Z",
+  "generatedAt": "2026-09-15T12:47:49.969Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "org-atlas-directory",
@@ -60,7 +60,7 @@
   },
   "media": {
     "source": "repo-local",
-    "directory": "C:/Users/Gaming PC/AppData/Local/Temp/claude/tick42_demo-copy-wt/project-media",
+    "directory": "/home/runner/work/org-atlas-directory/org-atlas-directory/project-media",
     "primary": "project-media/card.jpg",
     "images": [
       {
@@ -70,7 +70,7 @@
         "bytes": 41987,
         "width": 1600,
         "height": 900,
-        "capturedAt": "2026-09-15T12:23:44.520Z"
+        "capturedAt": "2026-09-15T12:47:40.766Z"
       },
       {
         "profile": "desktop",
@@ -79,7 +79,7 @@
         "bytes": 41395,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-15T12:23:44.528Z"
+        "capturedAt": "2026-09-15T12:47:43.120Z"
       },
       {
         "profile": "full",
@@ -88,7 +88,7 @@
         "bytes": 30815,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-15T12:23:44.665Z"
+        "capturedAt": "2026-09-15T12:47:47.655Z"
       },
       {
         "profile": "mobile",
@@ -97,7 +97,7 @@
         "bytes": 24164,
         "width": 430,
         "height": 932,
-        "capturedAt": "2026-09-15T12:23:44.694Z"
+        "capturedAt": "2026-09-15T12:47:45.375Z"
       },
       {
         "profile": "og",
@@ -106,7 +106,7 @@
         "bytes": 33599,
         "width": 1200,
         "height": 630,
-        "capturedAt": "2026-09-15T12:23:44.696Z"
+        "capturedAt": "2026-09-15T12:47:49.806Z"
       }
     ]
   },
@@ -173,12 +173,12 @@
   },
   "analysisNotes": "React/Redux directory app with json-server demo flow and synthetic relational data; useful but quieter portfolio material.",
   "git": {
-    "branch": "meta/copy-ff3c583",
-    "head": "ff06f56",
-    "lastCommitDate": "2026-09-14T23:27:54+00:00",
-    "lastCommitSubject": "Refresh screenshots, card, icons and metadata [meta-bot]",
-    "commitCount": 27,
-    "remote": "https://github.com/BorisThoris/org-atlas-directory.git"
+    "branch": "master",
+    "head": "c8d1f43",
+    "lastCommitDate": "2026-09-15T15:24:06+03:00",
+    "lastCommitSubject": "Say what the app actually is: specific title, blurb and tags for the card",
+    "commitCount": 28,
+    "remote": "https://github.com/BorisThoris/org-atlas-directory"
   },
   "readme": {
     "file": "README.md",
