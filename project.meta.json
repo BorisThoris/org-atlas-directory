@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T23:27:54.173Z",
+  "generatedAt": "2026-09-15T12:23:58.916Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "org-atlas-directory",
@@ -9,12 +9,13 @@
     "packageName": "org-atlas-directory",
     "version": "0.1.0",
     "title": "Org Atlas Directory",
-    "subtitle": "Enterprise directory demo",
-    "description": "A React/Redux directory app with synthetic relational data for companies, projects, employees, and addresses.",
+    "subtitle": "Browse companies, projects, employees and addresses",
+    "description": "A React and Redux directory for connected enterprise data: pick a company and drill into its projects, employees and addresses with master-detail filtering, backed by a local JSON data source.",
     "tags": [
       "React",
       "Redux",
-      "Directory"
+      "Directory",
+      "Archive"
     ],
     "accent": "#60a5fa",
     "classification": "web-app",
@@ -59,7 +60,7 @@
   },
   "media": {
     "source": "repo-local",
-    "directory": "/home/runner/work/org-atlas-directory/org-atlas-directory/project-media",
+    "directory": "C:/Users/Gaming PC/AppData/Local/Temp/claude/tick42_demo-copy-wt/project-media",
     "primary": "project-media/card.jpg",
     "images": [
       {
@@ -69,7 +70,7 @@
         "bytes": 41987,
         "width": 1600,
         "height": 900,
-        "capturedAt": "2026-09-14T23:27:46.161Z"
+        "capturedAt": "2026-09-15T12:23:44.520Z"
       },
       {
         "profile": "desktop",
@@ -78,7 +79,7 @@
         "bytes": 41395,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-14T23:27:48.126Z"
+        "capturedAt": "2026-09-15T12:23:44.528Z"
       },
       {
         "profile": "full",
@@ -87,7 +88,7 @@
         "bytes": 30815,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-14T23:27:52.040Z"
+        "capturedAt": "2026-09-15T12:23:44.665Z"
       },
       {
         "profile": "mobile",
@@ -96,7 +97,7 @@
         "bytes": 24164,
         "width": 430,
         "height": 932,
-        "capturedAt": "2026-09-14T23:27:50.078Z"
+        "capturedAt": "2026-09-15T12:23:44.694Z"
       },
       {
         "profile": "og",
@@ -105,7 +106,7 @@
         "bytes": 33599,
         "width": 1200,
         "height": 630,
-        "capturedAt": "2026-09-14T23:27:54.010Z"
+        "capturedAt": "2026-09-15T12:23:44.696Z"
       }
     ]
   },
@@ -142,7 +143,7 @@
   "metrics": {
     "sourceFiles": 33,
     "testFiles": 0,
-    "sourceLines": 2831,
+    "sourceLines": 2871,
     "largestDirectories": [
       {
         "directory": "src",
@@ -172,12 +173,12 @@
   },
   "analysisNotes": "React/Redux directory app with json-server demo flow and synthetic relational data; useful but quieter portfolio material.",
   "git": {
-    "branch": "master",
-    "head": "df358b9",
-    "lastCommitDate": "2026-09-15T01:52:35+03:00",
-    "lastCommitSubject": "Let the refresh wait up to 90 minutes for a queued Cloudflare build [meta-bot]",
-    "commitCount": 26,
-    "remote": "https://github.com/BorisThoris/org-atlas-directory"
+    "branch": "meta/copy-ff3c583",
+    "head": "ff06f56",
+    "lastCommitDate": "2026-09-14T23:27:54+00:00",
+    "lastCommitSubject": "Refresh screenshots, card, icons and metadata [meta-bot]",
+    "commitCount": 27,
+    "remote": "https://github.com/BorisThoris/org-atlas-directory.git"
   },
   "readme": {
     "file": "README.md",

@@ -18,12 +18,13 @@ export default {
 
   curated: {
     "title": "Org Atlas Directory",
-    "subtitle": "Enterprise directory demo",
-    "description": "A React/Redux directory app with synthetic relational data for companies, projects, employees, and addresses.",
+    "subtitle": "Browse companies, projects, employees and addresses",
+    "description": "A React and Redux directory for connected enterprise data: pick a company and drill into its projects, employees and addresses with master-detail filtering, backed by a local JSON data source.",
     "tags": [
       "React",
       "Redux",
-      "Directory"
+      "Directory",
+      "Archive"
     ],
     "accent": "#60a5fa",
     "deploymentUrl": "https://org-atlas-directory-git.pages.dev/",
@@ -56,6 +57,7 @@ export default {
   // Graph tags, and the static directory the image is published from.
   social: {
     "htmlFile": "public/index.html",
+    "pageTitle": "Org Atlas Directory",
     "staticDir": "public",
     "imageName": "og-image.jpg",
     "imageUrlPath": "/og-image.jpg"
