@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T12:15:35.084Z",
+  "generatedAt": "2026-09-17T10:26:22.743Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "org-atlas-directory",
@@ -67,10 +67,10 @@
         "profile": "card",
         "file": "card.jpg",
         "path": "project-media/card.jpg",
-        "bytes": 40006,
+        "bytes": 37705,
         "width": 1600,
         "height": 900,
-        "capturedAt": "2026-09-03T21:36:57.004Z"
+        "capturedAt": "2026-09-17T10:26:15.611Z"
       },
       {
         "profile": "desktop",
@@ -79,7 +79,7 @@
         "bytes": 37115,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-03T21:36:58.726Z"
+        "capturedAt": "2026-09-17T10:26:17.241Z"
       },
       {
         "profile": "full",
@@ -88,7 +88,7 @@
         "bytes": 27266,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-03T21:37:02.059Z"
+        "capturedAt": "2026-09-17T10:26:20.491Z"
       },
       {
         "profile": "mobile",
@@ -97,7 +97,7 @@
         "bytes": 21229,
         "width": 430,
         "height": 932,
-        "capturedAt": "2026-09-03T21:37:00.391Z"
+        "capturedAt": "2026-09-17T10:26:18.847Z"
       },
       {
         "profile": "og",
@@ -106,7 +106,7 @@
         "bytes": 29518,
         "width": 1200,
         "height": 630,
-        "capturedAt": "2026-09-03T21:37:03.743Z"
+        "capturedAt": "2026-09-17T10:26:22.102Z"
       }
     ]
   },
@@ -174,10 +174,10 @@
   "analysisNotes": "React/Redux directory app with json-server demo flow and synthetic relational data; useful but quieter portfolio material.",
   "git": {
     "branch": "ai/refine-org-atlas-directory-cycle-02",
-    "head": "26d5f6e",
-    "lastCommitDate": "2026-09-15T01:52:29+03:00",
-    "lastCommitSubject": "Let the refresh wait up to 90 minutes for a queued Cloudflare build [meta-bot]",
-    "commitCount": 23,
+    "head": "ff3c583",
+    "lastCommitDate": "2026-09-15T15:23:33+03:00",
+    "lastCommitSubject": "Say what the app actually is: specific title, blurb and tags for the card",
+    "commitCount": 24,
     "remote": "https://github.com/BorisThoris/org-atlas-directory.git"
   },
   "readme": {

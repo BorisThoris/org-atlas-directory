@@ -1,8 +1,8 @@
 {
   "slug": "org-atlas-directory",
-  "capturedAt": "2026-09-03T21:37:03.816Z",
-  "source": "deployment",
-  "url": "https://org-atlas-directory-git.pages.dev/",
+  "capturedAt": "2026-09-17T10:26:22.215Z",
+  "source": "explicit",
+  "url": "http://127.0.0.1:8088/org-atlas/",
   "recipe": {
     "route": "/"
   },
@@ -12,7 +12,7 @@
       "file": "card.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 40006,
+      "bytes": 37705,
       "status": "captured"
     },
     {
