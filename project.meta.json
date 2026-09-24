@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T12:47:49.969Z",
+  "generatedAt": "2026-09-24T14:48:27.071Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "org-atlas-directory",
@@ -52,7 +52,9 @@
       "social:check",
       "icons",
       "icons:check",
-      "meta:refresh"
+      "meta:refresh",
+      "trailers",
+      "trailers:check"
     ]
   },
   "capture": {
@@ -70,7 +72,7 @@
         "bytes": 41987,
         "width": 1600,
         "height": 900,
-        "capturedAt": "2026-09-15T12:47:40.766Z"
+        "capturedAt": "2026-09-24T14:48:18.745Z"
       },
       {
         "profile": "desktop",
@@ -79,7 +81,7 @@
         "bytes": 41395,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-15T12:47:43.120Z"
+        "capturedAt": "2026-09-24T14:48:20.795Z"
       },
       {
         "profile": "full",
@@ -88,7 +90,7 @@
         "bytes": 30815,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-15T12:47:47.655Z"
+        "capturedAt": "2026-09-24T14:48:24.908Z"
       },
       {
         "profile": "mobile",
@@ -97,7 +99,7 @@
         "bytes": 24164,
         "width": 430,
         "height": 932,
-        "capturedAt": "2026-09-15T12:47:45.375Z"
+        "capturedAt": "2026-09-24T14:48:22.829Z"
       },
       {
         "profile": "og",
@@ -106,7 +108,7 @@
         "bytes": 33599,
         "width": 1200,
         "height": 630,
-        "capturedAt": "2026-09-15T12:47:49.806Z"
+        "capturedAt": "2026-09-24T14:48:26.905Z"
       }
     ]
   },
@@ -141,9 +143,9 @@
     "devDependencyCount": 4
   },
   "metrics": {
-    "sourceFiles": 33,
+    "sourceFiles": 34,
     "testFiles": 0,
-    "sourceLines": 2871,
+    "sourceLines": 3452,
     "largestDirectories": [
       {
         "directory": "src",
@@ -151,7 +153,7 @@
       },
       {
         "directory": "scripts",
-        "files": 6
+        "files": 7
       },
       {
         "directory": "public",
@@ -174,10 +176,10 @@
   "analysisNotes": "React/Redux directory app with json-server demo flow and synthetic relational data; useful but quieter portfolio material.",
   "git": {
     "branch": "master",
-    "head": "c8d1f43",
-    "lastCommitDate": "2026-09-15T15:24:06+03:00",
-    "lastCommitSubject": "Say what the app actually is: specific title, blurb and tags for the card",
-    "commitCount": 28,
+    "head": "25e0cb4",
+    "lastCommitDate": "2026-09-24T16:47:50+03:00",
+    "lastCommitSubject": "Update the metadata toolkit scripts: trailers step, refresh --commit, capture.skip",
+    "commitCount": 32,
     "remote": "https://github.com/BorisThoris/org-atlas-directory"
   },
   "readme": {
