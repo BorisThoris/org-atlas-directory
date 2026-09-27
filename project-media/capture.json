@@ -1,6 +1,6 @@
 {
   "slug": "org-atlas-directory",
-  "capturedAt": "2026-09-27T13:13:01.505Z",
+  "capturedAt": "2026-09-27T13:19:53.195Z",
   "source": "deployment",
   "url": "https://org-atlas-directory-git.pages.dev/",
   "recipe": {
@@ -12,14 +12,14 @@
       "file": "card.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 37705,
+      "bytes": 41987,
       "status": "captured",
       "stats": {
-        "mean": 190,
+        "mean": 191,
         "std": 13,
         "dark": 0,
         "light": 0,
-        "colours": 23
+        "colours": 24
       }
     },
     {
@@ -27,14 +27,14 @@
       "file": "desktop.jpg",
       "width": 1440,
       "height": 900,
-      "bytes": 37115,
+      "bytes": 41395,
       "status": "captured",
       "stats": {
-        "mean": 190,
-        "std": 12,
+        "mean": 191,
+        "std": 13,
         "dark": 0,
         "light": 0,
-        "colours": 25
+        "colours": 26
       }
     },
     {
@@ -42,14 +42,14 @@
       "file": "mobile.jpg",
       "width": 430,
       "height": 932,
-      "bytes": 21229,
+      "bytes": 24164,
       "status": "captured",
       "stats": {
         "mean": 191,
-        "std": 14,
+        "std": 15,
         "dark": 0,
         "light": 0,
-        "colours": 37
+        "colours": 44
       }
     },
     {
@@ -57,14 +57,14 @@
       "file": "full.jpg",
       "width": 1440,
       "height": 900,
-      "bytes": 27266,
+      "bytes": 30815,
       "status": "captured",
       "stats": {
-        "mean": 190,
-        "std": 12,
+        "mean": 191,
+        "std": 13,
         "dark": 0,
         "light": 0,
-        "colours": 25
+        "colours": 26
       }
     },
     {
@@ -72,14 +72,14 @@
       "file": "og.jpg",
       "width": 1200,
       "height": 630,
-      "bytes": 29518,
+      "bytes": 33599,
       "status": "captured",
       "stats": {
         "mean": 190,
-        "std": 13,
+        "std": 14,
         "dark": 0,
         "light": 0,
-        "colours": 22
+        "colours": 25
       }
     }
   ]
