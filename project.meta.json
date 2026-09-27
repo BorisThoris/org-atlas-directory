@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T16:35:08.764Z",
+  "generatedAt": "2026-09-27T13:13:02.888Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "org-atlas-directory",
@@ -54,7 +54,9 @@
       "icons:check",
       "meta:refresh",
       "trailers",
-      "trailers:check"
+      "trailers:check",
+      "test:media",
+      "test:media:e2e"
     ]
   },
   "capture": {
@@ -62,53 +64,53 @@
   },
   "media": {
     "source": "repo-local",
-    "directory": "/home/runner/work/org-atlas-directory/org-atlas-directory/project-media",
+    "directory": "C:/Users/GAMING~1/AppData/Local/Temp/media-rollout-IcDpKO/project-media",
     "primary": "project-media/card.jpg",
     "images": [
       {
         "profile": "card",
         "file": "card.jpg",
         "path": "project-media/card.jpg",
-        "bytes": 41987,
+        "bytes": 37705,
         "width": 1600,
         "height": 900,
-        "capturedAt": "2026-09-24T16:35:00.402Z"
+        "capturedAt": "2026-09-27T13:11:59.296Z"
       },
       {
         "profile": "desktop",
         "file": "desktop.jpg",
         "path": "project-media/desktop.jpg",
-        "bytes": 41395,
+        "bytes": 37115,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-24T16:35:02.448Z"
+        "capturedAt": "2026-09-27T13:12:15.960Z"
       },
       {
         "profile": "full",
         "file": "full.jpg",
         "path": "project-media/full.jpg",
-        "bytes": 30815,
+        "bytes": 27266,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-24T16:35:06.560Z"
+        "capturedAt": "2026-09-27T13:12:39.674Z"
       },
       {
         "profile": "mobile",
         "file": "mobile.jpg",
         "path": "project-media/mobile.jpg",
-        "bytes": 24164,
+        "bytes": 21229,
         "width": 430,
         "height": 932,
-        "capturedAt": "2026-09-24T16:35:04.489Z"
+        "capturedAt": "2026-09-27T13:12:21.480Z"
       },
       {
         "profile": "og",
         "file": "og.jpg",
         "path": "project-media/og.jpg",
-        "bytes": 33599,
+        "bytes": 29518,
         "width": 1200,
         "height": 630,
-        "capturedAt": "2026-09-24T16:35:08.605Z"
+        "capturedAt": "2026-09-27T13:12:53.215Z"
       }
     ]
   },
@@ -143,9 +145,9 @@
     "devDependencyCount": 4
   },
   "metrics": {
-    "sourceFiles": 34,
-    "testFiles": 0,
-    "sourceLines": 3475,
+    "sourceFiles": 37,
+    "testFiles": 2,
+    "sourceLines": 4226,
     "largestDirectories": [
       {
         "directory": "src",
@@ -153,7 +155,7 @@
       },
       {
         "directory": "scripts",
-        "files": 7
+        "files": 10
       },
       {
         "directory": "public",
@@ -161,7 +163,7 @@
       }
     ],
     "hasReadme": true,
-    "hasTests": false,
+    "hasTests": true,
     "hasCi": true,
     "hasDocs": false
   },
@@ -175,12 +177,12 @@
   },
   "analysisNotes": "React/Redux directory app with json-server demo flow and synthetic relational data; useful but quieter portfolio material.",
   "git": {
-    "branch": "master",
-    "head": "934d5c7",
-    "lastCommitDate": "2026-09-24T19:17:19+03:00",
-    "lastCommitSubject": "Update the metadata toolkit scripts: trailers step, refresh --commit, capture.skip",
-    "commitCount": 34,
-    "remote": "https://github.com/BorisThoris/org-atlas-directory"
+    "branch": "HEAD",
+    "head": "8313c8b",
+    "lastCommitDate": "2026-09-24T16:35:08+00:00",
+    "lastCommitSubject": "Refresh screenshots, card, icons and metadata [meta-bot]",
+    "commitCount": 35,
+    "remote": "https://github.com/BorisThoris/org-atlas-directory.git"
   },
   "readme": {
     "file": "README.md",

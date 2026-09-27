@@ -1,6 +1,6 @@
 {
   "slug": "org-atlas-directory",
-  "capturedAt": "2026-09-24T16:35:08.636Z",
+  "capturedAt": "2026-09-27T13:13:01.505Z",
   "source": "deployment",
   "url": "https://org-atlas-directory-git.pages.dev/",
   "recipe": {
@@ -12,40 +12,75 @@
       "file": "card.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 41987,
-      "status": "captured"
+      "bytes": 37705,
+      "status": "captured",
+      "stats": {
+        "mean": 190,
+        "std": 13,
+        "dark": 0,
+        "light": 0,
+        "colours": 23
+      }
     },
     {
       "profile": "desktop",
       "file": "desktop.jpg",
       "width": 1440,
       "height": 900,
-      "bytes": 41395,
-      "status": "captured"
+      "bytes": 37115,
+      "status": "captured",
+      "stats": {
+        "mean": 190,
+        "std": 12,
+        "dark": 0,
+        "light": 0,
+        "colours": 25
+      }
     },
     {
       "profile": "mobile",
       "file": "mobile.jpg",
       "width": 430,
       "height": 932,
-      "bytes": 24164,
-      "status": "captured"
+      "bytes": 21229,
+      "status": "captured",
+      "stats": {
+        "mean": 191,
+        "std": 14,
+        "dark": 0,
+        "light": 0,
+        "colours": 37
+      }
     },
     {
       "profile": "full",
       "file": "full.jpg",
       "width": 1440,
       "height": 900,
-      "bytes": 30815,
-      "status": "captured"
+      "bytes": 27266,
+      "status": "captured",
+      "stats": {
+        "mean": 190,
+        "std": 12,
+        "dark": 0,
+        "light": 0,
+        "colours": 25
+      }
     },
     {
       "profile": "og",
       "file": "og.jpg",
       "width": 1200,
       "height": 630,
-      "bytes": 33599,
-      "status": "captured"
+      "bytes": 29518,
+      "status": "captured",
+      "stats": {
+        "mean": 190,
+        "std": 13,
+        "dark": 0,
+        "light": 0,
+        "colours": 22
+      }
     }
   ]
 }
