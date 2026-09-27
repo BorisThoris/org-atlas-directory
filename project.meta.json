@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T13:19:53.282Z",
+  "generatedAt": "2026-09-27T14:48:58.172Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "org-atlas-directory",
@@ -74,7 +74,7 @@
         "bytes": 41987,
         "width": 1600,
         "height": 900,
-        "capturedAt": "2026-09-27T13:19:43.961Z"
+        "capturedAt": "2026-09-27T14:48:49.874Z"
       },
       {
         "profile": "desktop",
@@ -83,7 +83,7 @@
         "bytes": 41395,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-27T13:19:46.242Z"
+        "capturedAt": "2026-09-27T14:48:51.904Z"
       },
       {
         "profile": "full",
@@ -92,7 +92,7 @@
         "bytes": 30815,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-27T13:19:50.942Z"
+        "capturedAt": "2026-09-27T14:48:55.954Z"
       },
       {
         "profile": "mobile",
@@ -101,7 +101,7 @@
         "bytes": 24164,
         "width": 430,
         "height": 932,
-        "capturedAt": "2026-09-27T13:19:48.634Z"
+        "capturedAt": "2026-09-27T14:48:53.941Z"
       },
       {
         "profile": "og",
@@ -110,7 +110,7 @@
         "bytes": 33599,
         "width": 1200,
         "height": 630,
-        "capturedAt": "2026-09-27T13:19:53.171Z"
+        "capturedAt": "2026-09-27T14:48:58.013Z"
       }
     ]
   },
@@ -147,7 +147,7 @@
   "metrics": {
     "sourceFiles": 37,
     "testFiles": 2,
-    "sourceLines": 4226,
+    "sourceLines": 4231,
     "largestDirectories": [
       {
         "directory": "src",
@@ -178,10 +178,10 @@
   "analysisNotes": "React/Redux directory app with json-server demo flow and synthetic relational data; useful but quieter portfolio material.",
   "git": {
     "branch": "master",
-    "head": "5e79892",
-    "lastCommitDate": "2026-09-27T16:13:09+03:00",
-    "lastCommitSubject": "A media strategy with tests: screenshots that show the app, a recorded trailer, a gated refresh",
-    "commitCount": 36,
+    "head": "4389a27",
+    "lastCommitDate": "2026-09-27T17:34:07+03:00",
+    "lastCommitSubject": "Update the metadata toolkit scripts: trailers step, refresh --commit, capture.skip",
+    "commitCount": 38,
     "remote": "https://github.com/BorisThoris/org-atlas-directory"
   },
   "readme": {
