@@ -9,13 +9,22 @@ const startProjectUpdate = Creators.startProjectUpdate;
 
 const getResponseData = (responseData) => responseData.db || responseData;
 
+// In development the directory comes from json-server (npm run json-server). The
+// deployed demo has no server, so it reads the same data as a static file shipped
+// with the build, and edits stay in this browser session.
+const LOCAL_API = "http://localhost:5000/db";
+const DATA_URL =
+  process.env.REACT_APP_DB_URL ||
+  (process.env.NODE_ENV === "development" ? LOCAL_API : `${process.env.PUBLIC_URL}/db.json`);
+const canSave = DATA_URL === LOCAL_API || Boolean(process.env.REACT_APP_DB_URL);
+
 const fetchInitialData = () => {
   return (dispatch) => {
     dispatch(requestInitialDataAction());
 
     /*eslint-disable */
     //suppress all warnings between comments
-    return fetch(`http://localhost:5000/db`)
+    return fetch(DATA_URL)
       .then((response) => {
         if (!response.ok) {
           throw new Error("Unable to load directory data.");
@@ -39,22 +48,24 @@ const updateProject = (passedState) => {
   return (dispatch) => {
     dispatch(startProjectUpdate());
 
-    /*eslint-disable */
-    //suppress all warnings between comments
-    return fetch(`http://localhost:5000/db`, {
-      method: "PUT",
-      headers: {
-        "Content-type": "application/json; charset=UTF-8",
-      },
-      body: JSON.stringify(passedState),
-    })
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Unable to update directory data.");
-        }
+    // Nothing to save to on the static demo: keep the edit in memory.
+    const request = canSave
+      ? fetch(DATA_URL, {
+          method: "PUT",
+          headers: {
+            "Content-type": "application/json; charset=UTF-8",
+          },
+          body: JSON.stringify(passedState),
+        }).then((response) => {
+          if (!response.ok) {
+            throw new Error("Unable to update directory data.");
+          }
 
-        return response.json();
-      })
+          return response.json();
+        })
+      : Promise.resolve(passedState);
+
+    return request
       .then((json) => {
         const responseData = getResponseData(json);
 
@@ -63,7 +74,6 @@ const updateProject = (passedState) => {
       .catch((error) => {
         dispatch(failInitialDataAction(error.message));
       });
-    /*eslint-enable */
   };
 };
 
